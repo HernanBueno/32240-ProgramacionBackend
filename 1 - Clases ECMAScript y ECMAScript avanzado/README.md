@@ -1,9 +1,11 @@
 # **Clases con ECMAScript y ECMAScript avanzado**
 
 ## Consigna
+
 Realizar una clase “ProductManager” que gestione un conjunto de productos.
 
 ## Aspectos a incluir
+
 - Debe crearse desde su constructor con el elemento products, el cual será un arreglo vacío.
 - Cada producto que gestione debe contar con las propiedades:
   - title (nombre del producto).
@@ -21,7 +23,5 @@ Realizar una clase “ProductManager” que gestione un conjunto de productos.
   - En caso de no coincidir ningún id, mostrar en consola un error “Not found”.
 
 ## Formato del entregable
+
 Archivo de Javascript listo para ejecutarse desde node.
-
-
-
