@@ -16,7 +16,6 @@ class ProductManager {
     }
 
     validateCode(code) {
-        const products = this.getProducts()
         const product = this.products.filter(item => item.code == code)
         if (product.length) {
             throw new Error(`Code ${product[0].code} already exists`)
@@ -26,10 +25,9 @@ class ProductManager {
     }
 
     addProduct(product) {
-        const products = this.getProducts()
-        const validProperties = this.validateProperties(product)
-        const validCode = this.validateCode(product.code)
         try{
+            this.validateProperties(product)
+            this.validateCode(product.code)
             this.id++
             product.id = this.id
             this.products.push(product)
@@ -43,7 +41,6 @@ class ProductManager {
     }
 
     getProductById(id) {
-        const products = this.getProducts()
         const product = this.products.filter(item => item.id == id)
         if (product.length) {
             return product
