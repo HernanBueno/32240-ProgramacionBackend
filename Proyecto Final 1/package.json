@@ -1,0 +1,16 @@
+{
+  "name": "proyecto-final-1",
+  "version": "1.0.0",
+  "description": "Desarrollar el servidor basado en Node.JS y express, que escuche en el puerto 8080 y disponga de dos grupos de rutas: /products y /carts. Dichos endpoints estarán implementados con el router de express, con las siguientes especificaciones:",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Florencia Russo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "router": "^1.3.7"
+  }
+}
