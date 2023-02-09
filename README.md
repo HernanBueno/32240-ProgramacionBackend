@@ -10,3 +10,7 @@
 ## **Proyecto Final**
 
 - [Primera entrega](Proyecto%20Final%201/README.md) (16/01/2023)
+
+## **Practicas Integradoras**
+
+- [Desafio complementario I](Desafio%20Complementario%201/README.md) (08/02/2023)
